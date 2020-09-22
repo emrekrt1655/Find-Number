@@ -92,8 +92,20 @@ h1{
         font-size: 15px;
         line-height: 20px;
     }
-    h3, p{
+    h3{
         font-size: smaller;
+        line-height: 20px;
+    }
+
+    #result{
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: -15px;
+    }
+
+    #try{
+        font-size: 10px;
+        line-height: 10px;
     }
 
     #number, #button {
