@@ -89,7 +89,8 @@ h1{
  @media screen and (max-width: 506px) {
 
     h1 {
-        font-size: 18px;
+        font-size: 15px;
+        line-height: 20px;
     }
     h3, p{
         font-size: smaller;
