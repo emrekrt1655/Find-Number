@@ -9,7 +9,7 @@ document.getElementById("button").onclick = function(){
     
 
     if( num == random) {
-       alert("You have correct guessed! This is your "  + count +". Try. You must be genius!")
+       alert("You have correct guessed! This is your Try "  + count +" You must be genius!")
         var r = confirm("Do you wanna play again???");
         if (r == true) {
              random = Math.floor((Math.random()*100)+1);
@@ -26,14 +26,14 @@ document.getElementById("button").onclick = function(){
         count ++;
         
         document.getElementById("result").innerHTML = ("You need to lower ")
-        document.getElementById("try").innerHTML = (count + ". try ")
+        document.getElementById("try").innerHTML = (" This is your try " + count )
     } 
 
     else {
         count ++;
         
         document.getElementById("result").innerHTML = ("You need to higher ")
-        document.getElementById("try").innerHTML = (count + ". try ")
+        document.getElementById("try").innerHTML = (" This is your try " + count )
     } 
     document.getElementById("number").value='';
     document.getElementById("number").focus();
